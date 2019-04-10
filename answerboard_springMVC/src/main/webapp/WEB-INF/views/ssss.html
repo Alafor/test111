@@ -1,0 +1,436 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>게시판</title>
+<script type="text/javascript">
+	function allsel(bool) {
+		var chks = document.getElementsByName("chk");
+		for (var i = 0; i < chks.length; i++) {
+			chks[i].checked = bool;
+		}
+	}
+	
+	
+</script>
+</head>
+<body>
+	<h1>글목록</h1>
+	<form action="AnsControll.do" method="post">
+		<input type="hidden" value="muldel" name="command">
+		<table border="1">
+			<col width="50px">
+			<col width="50px">
+			<col width="100px">
+			<col width="300px">
+			<col width="100px">
+			<col width="50px">
+			<col width="50px">
+			<col width="50px">
+			<col width="60px">
+			<col width="50px">
+			<tr style="background-color: silver;">
+				<th><input type="checkbox" onclick="allsel(this.checked)"></th>
+				<td>번호</td>
+				<td>작성자</td>
+				<td>제목</td>
+				<td>작성일</td>
+				<td>refer</td>
+				<td>step</td>
+				<td>depth</td>
+				<td>조회수</td>
+				<td>삭제</td>
+			</tr>
+
+			
+				
+				
+					
+						<tr>
+							<th><input type="checkbox" name="chk" value="2"></th>
+							<td>2</td>
+							<td>hk</td>
+
+							
+								
+
+								
+									<td onmouseover="sp(this,'0','0','글글')">
+										
+									</td>
+								
+							
+
+							<td>2019.03.12</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>N</td>
+						</tr>
+						<!-- <td><a href="AnsControll.do?command=deleteone&seq=2">삭제</a></td> -->
+					
+						<tr>
+							<th><input type="checkbox" name="chk" value="4"></th>
+							<td>4</td>
+							<td>kk</td>
+
+							
+								
+
+								
+									<td onmouseover="sp(this,'1','1','댓글')">
+										
+									</td>
+								
+							
+
+							<td>2019.03.12</td>
+							<td>0</td>
+							<td>1</td>
+							<td>1</td>
+							<td>0</td>
+							<td>N</td>
+						</tr>
+						<!-- <td><a href="AnsControll.do?command=deleteone&seq=4">삭제</a></td> -->
+					
+						<tr>
+							<th><input type="checkbox" name="chk" value="3"></th>
+							<td>3</td>
+							<td>hk</td>
+
+							
+								
+
+								
+									<td onmouseover="sp(this,'0','0','글글2')">
+										
+									</td>
+								
+							
+
+							<td>2019.03.12</td>
+							<td>1</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>N</td>
+						</tr>
+						<!-- <td><a href="AnsControll.do?command=deleteone&seq=3">삭제</a></td> -->
+					
+						<tr>
+							<th><input type="checkbox" name="chk" value="5"></th>
+							<td>5</td>
+							<td>hk</td>
+
+							
+								
+
+								
+									<td onmouseover="sp(this,'0','0','aaa')">
+										
+									</td>
+								
+							
+
+							<td>2019.03.13</td>
+							<td>2</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>N</td>
+						</tr>
+						<!-- <td><a href="AnsControll.do?command=deleteone&seq=5">삭제</a></td> -->
+					
+						<tr>
+							<th><input type="checkbox" name="chk" value="12"></th>
+							<td>12</td>
+							<td>hk</td>
+
+							
+								
+
+								
+									<td onmouseover="sp(this,'0','0','글글2')">
+										
+									</td>
+								
+							
+
+							<td>2019.03.12</td>
+							<td>5</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>N</td>
+						</tr>
+						<!-- <td><a href="AnsControll.do?command=deleteone&seq=12">삭제</a></td> -->
+					
+						<tr>
+							<th><input type="checkbox" name="chk" value="13"></th>
+							<td>13</td>
+							<td>hk</td>
+
+							
+								
+
+								
+									<td onmouseover="sp(this,'0','0','글글2')">
+										
+									</td>
+								
+							
+
+							<td>2019.03.12</td>
+							<td>6</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>N</td>
+						</tr>
+						<!-- <td><a href="AnsControll.do?command=deleteone&seq=13">삭제</a></td> -->
+					
+						<tr>
+							<th><input type="checkbox" name="chk" value="14"></th>
+							<td>14</td>
+							<td>hk</td>
+
+							
+								
+
+								
+									<td onmouseover="sp(this,'0','0','글글2')">
+										
+									</td>
+								
+							
+
+							<td>2019.03.12</td>
+							<td>7</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>N</td>
+						</tr>
+						<!-- <td><a href="AnsControll.do?command=deleteone&seq=14">삭제</a></td> -->
+					
+						<tr>
+							<th><input type="checkbox" name="chk" value="35"></th>
+							<td>35</td>
+							<td>ㅋㅋㅋ</td>
+
+							
+								
+
+								
+									<td onmouseover="sp(this,'1','1','ㅋㅋㅋ')">
+										
+									</td>
+								
+							
+
+							<td>2019.03.13</td>
+							<td>7</td>
+							<td>1</td>
+							<td>1</td>
+							<td>0</td>
+							<td>N</td>
+						</tr>
+						<!-- <td><a href="AnsControll.do?command=deleteone&seq=35">삭제</a></td> -->
+					
+						<tr>
+							<th><input type="checkbox" name="chk" value="34"></th>
+							<td>34</td>
+							<td>KK</td>
+
+							
+								
+
+								
+									<td onmouseover="sp(this,'2','1','댓글')">
+										
+									</td>
+								
+							
+
+							<td>2019.03.13</td>
+							<td>7</td>
+							<td>2</td>
+							<td>1</td>
+							<td>0</td>
+							<td>N</td>
+						</tr>
+						<!-- <td><a href="AnsControll.do?command=deleteone&seq=34">삭제</a></td> -->
+					
+						<tr>
+							<th><input type="checkbox" name="chk" value="15"></th>
+							<td>15</td>
+							<td>hk</td>
+
+							
+								
+									<td>-------------삭제된 글입니다--------------</td>
+								
+
+								
+							
+
+							<td>2019.03.12</td>
+							<td>8</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>Y</td>
+						</tr>
+						<!-- <td><a href="AnsControll.do?command=deleteone&seq=15">삭제</a></td> -->
+					
+						<tr>
+							<th><input type="checkbox" name="chk" value="16"></th>
+							<td>16</td>
+							<td>hk</td>
+
+							
+								
+									<td>-------------삭제된 글입니다--------------</td>
+								
+
+								
+							
+
+							<td>2019.03.12</td>
+							<td>9</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>Y</td>
+						</tr>
+						<!-- <td><a href="AnsControll.do?command=deleteone&seq=16">삭제</a></td> -->
+					
+						<tr>
+							<th><input type="checkbox" name="chk" value="18"></th>
+							<td>18</td>
+							<td>hk</td>
+
+							
+								
+
+								
+									<td onmouseover="sp(this,'0','0','글글2')">
+										
+									</td>
+								
+							
+
+							<td>2019.03.12</td>
+							<td>11</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>N</td>
+						</tr>
+						<!-- <td><a href="AnsControll.do?command=deleteone&seq=18">삭제</a></td> -->
+					
+						<tr>
+							<th><input type="checkbox" name="chk" value="30"></th>
+							<td>30</td>
+							<td>hk</td>
+
+							
+								
+
+								
+									<td onmouseover="sp(this,'0','0','고친글')">
+										
+									</td>
+								
+							
+
+							<td>2019.03.13</td>
+							<td>12</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>N</td>
+						</tr>
+						<!-- <td><a href="AnsControll.do?command=deleteone&seq=30">삭제</a></td> -->
+					
+						<tr>
+							<th><input type="checkbox" name="chk" value="31"></th>
+							<td>31</td>
+							<td>hk</td>
+
+							
+								
+
+								
+									<td onmouseover="sp(this,'0','0','4444')">
+										
+									</td>
+								
+							
+
+							<td>2019.03.13</td>
+							<td>13</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>N</td>
+						</tr>
+						<!-- <td><a href="AnsControll.do?command=deleteone&seq=31">삭제</a></td> -->
+					
+						<tr>
+							<th><input type="checkbox" name="chk" value="32"></th>
+							<td>32</td>
+							<td>hk</td>
+
+							
+								
+
+								
+									<td onmouseover="sp(this,'0','0','4444')">
+										
+									</td>
+								
+							
+
+							<td>2019.03.13</td>
+							<td>14</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>N</td>
+						</tr>
+						<!-- <td><a href="AnsControll.do?command=deleteone&seq=32">삭제</a></td> -->
+					
+				
+			
+			<tr>
+				<td colspan="10"><input type="button"
+					onclick="location.href='AnsControll.do?command=insertform'"
+					value="글추가"> <input type="submit" value="선택글 삭제"></td>
+			</tr>
+
+		</table>
+	</form>
+	<script type="text/javascript">
+	function sp(td,step1,depth1,title) {	
+		var space = "";
+		var step = parseInt(step1);
+		var depth = parseInt(depth1);
+		alert(typeof depth);
+		if(step==0){
+			td.innerHtml="<a href='AnsControll.do?command=boarddetail&seq='>"+title+"</a>";
+		}else{
+			for(int i=0;i<depth;i++){
+				space+="&nbsp&nbsp";
+			}
+		td.innerHtml="<a href='AnsControll.do?command=boarddetail&seq='>"+space+"┖▷"+title+"</a>";
+		}
+	}
+	</script>
+</body>
+</html>
